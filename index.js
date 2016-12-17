@@ -1,10 +1,10 @@
-import 'babel-polyfill';
-import Koa from 'koa';
+import Koa from 'koa'
+import { marretaPhrases } from './src/marreta-lib'
 
-var app = new Koa();
+const app = new Koa()
 
-app.use(async(ctx) => {
-    ctx.body = 'Marreta: CHEIRAAAA MEUS OVU';
-});
+app.use(async (ctx) => {
+  ctx.body = marretaPhrases()
+})
 
-app.listen(3000);
+app.listen(6969)
