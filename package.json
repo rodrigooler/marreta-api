@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build": "babel index.js -o app.js"
+    "build": "babel index.js -o ./build/app.js"
   },
   "repository": {
     "url": "https://github.com/RodrigoOler/marreta-api.git",
